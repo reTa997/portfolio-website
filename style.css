@@ -420,3 +420,32 @@ footer {
 footer p {
   text-align: center;
 }
+
+/* FORM */
+
+form {
+  margin: 0 auto;
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 50%;
+}
+
+form label {
+  width: 100%;
+}
+
+form button.btn {
+  width: 100%;
+}
+
+label .inpt {
+  width: 100%;
+  border-radius: 0.5rem;
+  resize: none;
+  padding: 1rem;
+}
+textarea {
+  height: 200px;
+}
