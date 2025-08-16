@@ -445,3 +445,9 @@ label .inpt {
 textarea {
   height: 200px;
 }
+
+#projects .about-containers .details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
